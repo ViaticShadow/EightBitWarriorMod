@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+[[mods]]
+modId="ebw"
+version="0.0.1-1.19"
+displayName="Eight Bit Warrior Mod"
+logoFile="examplemod.png"
+credits="Thanks for this example mod goes to Java"
+authors="TheOverAnalyst"
+description='''
+A fan mod based off of a fan book for the game the fan book is a fan book of!
+
+In other words, it's a fan mod for Diary of an 8 Bit Warrior by CubeKid!
+
+:D
+'''
+[[dependencies.ebw]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ebw]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
